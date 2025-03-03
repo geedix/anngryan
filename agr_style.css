@@ -1,0 +1,142 @@
+body {
+	background-color: #FFFFFF;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	border: 3px #e7ca84 double;
+	font-family: "Trebuchet MS", Verdana, sans-serif;
+}
+
+p {
+	font-family: Georgia, serif;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: normal;
+	color: #11847D;
+	list-style-type: square;
+	margin-top: 6pt;
+	margin-bottom: 5pt;
+	margin-left: 50px;
+	margin-right: 50px;
+	text-indent: 1.5em;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:visited {
+	color: #AF8287;
+	font-weight: bold;
+	
+}
+
+h1 {
+	font-size: 20px;
+	font-weight: bolder;
+	color: #6a374a;
+	text-align: center;
+	letter-spacing: .0em;
+	margin-top: 5pt;
+}
+
+h2 {
+	font-size: 14px;
+	font-weight: bold;
+	color: #6a374a;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+ul {
+	font-size: 11px;
+	color: #666666;
+	line-height: 14px;
+	list-style-type: square;
+}
+
+a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #B23F4E;
+}
+
+a:active {
+	font-weight: bold;
+	color: #11847D;
+	text-decoration: underline;
+}
+
+li {
+	font-size: 11px;
+	color: #CC0000;
+	line-height: 14px;
+	list-style-type: square;
+}
+
+div {
+	font-size: 11px;
+	color: #333333;
+	line-height: 14px;
+}
+
+
+.nav {
+	font-family: "Trebuchet MS", Verdana, sans-serif;
+	font-size: 14px;
+	color: #6a374a;
+	background-color: #e7ca84;
+	margin-left: 50px;
+	margin-right: 50px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.floatright {
+	float: right;
+	margin: 0px 0px 0px 36px;
+	padding: 0px;
+}
+
+.floatleft {
+	float: left;
+	margin: 0px 0px 0px 36px;
+	padding: 0px;
+}
+
+.pbigSerif {
+	font-family: Georgia, serif;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: normal;
+	color: #993300;
+	list-style-type: square;
+}
+
+.fineprint {
+	font-family: "Trebuchet MS", Verdana, sans-serif;
+	font-size: 6px;
+	line-height: 14px;
+	font-weight: normal;
+	color: #ababab;
+}
+
+.ctrdiv{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #1d1845;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+.ctrdiv img{
+	max-width:480px;
+}
+
+.ctrdiv p{
+	max-width:480px;
+	color:wheat;
+	/* font-family:sans-serif; */
+	letter-spacing: 0.02em;
+}
